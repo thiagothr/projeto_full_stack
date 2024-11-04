@@ -8,6 +8,7 @@ Este é um projeto de um cardápio online para uma hamburgueria, construído com
 - **Express**: Framework para Node.js para facilitar a criação de servidores.
 - **SQLite3**: Banco de dados leve e fácil de usar para armazenamento de dados.
 - **Tailwind CSS**: Framework CSS para estilização rápida e responsiva.
+- **Docker**: Utilizado para containerizar a aplicação, facilitando a configuração e execução em qualquer ambiente.
 
 ## Funcionalidades
 
