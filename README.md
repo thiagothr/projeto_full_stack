@@ -54,6 +54,23 @@ Antes de começar, certifique-se de que você tem o Node.js e o npm instalados n
 
 5. Acesse o cardápio no seu navegador em http://localhost:3000/index.html
 
+## Usando Docker
+Para executar a aplicação com Docker, siga os passos abaixo:
+
+Construir a imagem Docker: No diretório raiz do projeto, execute o comando para buildar a imagem Docker:
+
+ ```bash
+Copiar código
+docker build -t projet_fullstack .
+ ```
+Executar o contêiner: Após construir a imagem, execute o contêiner com o comando:
+
+ ```bash
+Copiar código
+docker run -p 3000:3000 projet_fullstack
+ ```
+A aplicação estará acessível em http://localhost:3000.
+
 ## Contribuições
 
 Contribuições são bem-vindas! Se você deseja contribuir para este projeto, siga os passos:
