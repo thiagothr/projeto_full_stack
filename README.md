@@ -60,13 +60,11 @@ Para executar a aplicação com Docker, siga os passos abaixo:
 Construir a imagem Docker: No diretório raiz do projeto, execute o comando para buildar a imagem Docker:
 
  ```bash
-Copiar código
 docker build -t projet_fullstack .
  ```
 Executar o contêiner: Após construir a imagem, execute o contêiner com o comando:
 
  ```bash
-Copiar código
 docker run -p 3000:3000 projet_fullstack
  ```
 A aplicação estará acessível em http://localhost:3000.
