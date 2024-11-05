@@ -40,14 +40,14 @@ Antes de começar, certifique-se de que você tem o Node.js e o npm instalados n
    ```
  3. Execute o arquivo db.js para criar um banco de dados SQLite:
    ```bash
-   node db.js
+    node db.js
 
    
    ```
 
  4. Execute o arquivo server.js:
    ```bash
-   node server.js
+    node server.js
 
    
    ```
